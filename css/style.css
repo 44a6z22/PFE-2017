@@ -1,0 +1,327 @@
+
+/*-- reset --*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/*-- start editing from here --*/
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*-- end reset --*/
+
+
+body {
+	background: url(../img/backit.jpg)  no-repeat 0px 0px;
+	background-color: rgba(0,0,0,0.5);
+	font-family: sans-serif;
+  
+}
+label{
+	font-family: sans-serif;
+	margin-left: -7px;
+	margin-top: 6px
+
+}
+
+
+h1 a{
+	color: black ;
+
+	text-decoration : none ;
+}
+.adlinks{
+    text-decoration: none;
+    color: currentColor;
+   
+}
+.adlinks:hover{
+    text-decoration: underline;
+}
+
+ 		/******************************************
+ 			***************************************
+ 			** # inputs 
+ 			***************************************
+ 		*******************************************/
+ 		
+
+.inscf input[type=text],
+.inscf input[type=password],
+.inscf input[type=email]{
+	width: 270px;
+	margin-left:-10px;
+	height: 25px;
+	font-family: sans-serif;
+
+	background-color: rgba(255,255,255,0.8);
+
+}
+	
+textarea{
+	resize: none;
+	height: 30px;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+
+.buttns{
+    border: none;
+    padding: none;
+    background-color: transparent;
+    margin-left: -440px;
+    margin-top: -258px;
+}
+.buttns:hover{
+    cursor: pointer ;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+			/*****************************************
+				**************************************
+				** # Forms
+				**************************************
+			******************************************/
+
+.forms{
+
+	width: 250px;
+	margin-left: 470px;
+	margin-top: 185px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.forgot_pass{
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-size: 11px;
+	margin-left:75px;
+	font-family: sans-serif ; 
+	color: white ;
+}
+.forgot_pass:hover{
+	text-decoration: underline;
+}
+select{
+    
+    color:  #696563 ;
+}
+.form_control{
+	
+	border: 0px solid rgba(0,0,0,1);
+	background-color: transparent;
+	width: 250px;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+	/* Makes it Fit  The Divs */
+	position: absolute;
+    
+	margin-top: -10px;
+	margin-left: -10px;
+	height: 94%;
+	width: 99%;
+	
+} 
+		/****************************************
+			*************************************
+			** #  Making inputs fit Divs 
+			*************************************
+		*****************************************/
+
+.has-border{
+	border-top: 1px solid rgba(0,0,0,0.2);
+}
+.General-info .form_control:first-child,
+.login-info .group_form:first-child,
+.General-info .group_form:first-child{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.General-info .form-controm:last-child,
+.login-info .group_form:last-child,
+.General-info .group_form:last-child{
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius:4px;
+}
+.group_form{
+	padding:10px;
+	background: rgba(255,255,255,0.8);
+	width: 270px;
+	height: 20px;
+	position: relative ;
+    color:  #696563 ;
+	
+}
+		
+.form_select{
+	padding-right:35px;
+	position:absolute;
+	width: 50%;
+	padding-left: 40px;
+	color:  #696563 ;
+	height: 100%;
+}
+.form_select:first-child{
+    float: left;
+}
+.form_select:last-child{
+    
+    margin-left: 135px;
+}
+.form_select:hover {
+	cursor: pointer;
+}
+
+		/****************************************
+			*************************************
+			** # buttons 
+			*************************************
+		*****************************************/
+
+.buttons{
+	padding-right: 10px;
+	border-radius: 4px;
+	border:2px solid #0080FF;
+	background: #0080FF;
+	color: white ;
+	margin-top: 5px;
+	width: 290px;
+	height: 40px;
+	
+	font-weight: bold ;
+	font-family: sans-serif;
+}
+
+.buttons:hover{
+	box-shadow: 0px 0px 6px #FF1818;
+	background-color: #FF1818;
+	border:2px solid #FF1818;
+	cursor: pointer;
+}
+
+
+img{
+    height: 250px;
+}
+
+.links{
+    font-size: 12px;
+    font-family : sans-serif ;
+}
+.links a{
+    text-decoration : none ; 
+    text-transform: uppercase;
+    color : dimgray ;
+   
+}
+
+.links a:hover{
+    text-decoration :underline;
+    color: aquamarine;
+}
+ 
+
+.margin{
+    margin-top: 10px;
+}
+
+.display{
+      display: none !important;
+}
+
+.Userinfo{
+    font-size: 14px;
+  
+    text-decoration : none;
+    font-family: sans-serif;
+   
+}
+
+.Userinfo li{
+    display: inline ;
+padding-left: 12px;
+}
+
+
+
+.logouth{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    float: right;
+    
+}
+.logouth:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.header{
+       background: rgba(255,255,255, 0.56);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 20px 20px;
+    
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.bodyy{
+    margin-top: 80px;
+    padding: 20px 20px;
+}
+.bodyy div{
+    text-align: center;
+    padding-right: 0px;
+}
+
+
+ /* FADE IN FADE OUT */
+.images{
+    transition: 500ms;
+    width : 200px;
+    height: 200px;
+    border-radius: 6px;
+    color: rgba(0,0,0,0.2);     
+}
+
+.imagesv2{
+    transition : 500ms;
+    width: 250px;
+    height: 250px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,1);
+    box-shadow: 0px 35px 44px -22px #1f181b;  
+}
+
+
+
+.psdo{
+    text-decoration: none;
+    color: black;
+}
+.psdo:hover{
+    text-decoration: underline;
+    
+}

@@ -72,5 +72,5 @@ ________________________________________________________________________________
 		
 					ideas ::>	the one that's used right now but put more CSS/JS into it
 
-3 ==> secound thought , imma need to switch to PDO , Shits going down dawg ...
+
 
